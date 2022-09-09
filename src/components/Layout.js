@@ -108,7 +108,7 @@ const ProLayoutLeft = ()=>{
           openKeys={openKeys}
           onOpenChange={onOpenChange}
           style={{
-            width: 256,
+            width: 200,
           }}
           items={items}
         />
