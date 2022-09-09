@@ -1,10 +1,12 @@
-import './App.css';
-
+import ProLayoutLeft from "./components/Layout";
+import { HashRouter } from 'react-router-dom'
 function App() {
   return (
-    <div className="App">
-      11111111
-    </div>
+    <HashRouter>
+      <div className="App">
+        <ProLayoutLeft />
+      </div>
+    </HashRouter>
   );
 }
 

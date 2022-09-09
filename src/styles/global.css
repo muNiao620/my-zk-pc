@@ -1,0 +1,34 @@
+/**
+ * 全局样式
+ * @notice: 为保持简单，如非在多个页面或组件重复，请勿添加
+ */
+
+/* 自己实现antd线条风格input */
+.input-style-line       {   border-bottom: 1px solid var(--border-color); border-radius: 0; padding: 1px;}
+.input-style-line:hover {   border-bottom: 1px solid #40a9ff; }
+.input-style-line:focus {   border-bottom: 1px solid #40a9ff; }
+.input-style-line:blur  {   border-bottom: 1px solid var(--border-color); }
+
+
+.ant-table-wrapper {
+  /*animation: ant-table-wrapper-keyframes 1s;*/
+}
+@keyframes ant-table-wrapper-keyframes {
+  0%   { opacity: 0 }
+  20%  { opacity: 0.7 }
+  100% { opacity: 1 }
+}
+
+.ant-timeline-item{
+  padding-bottom: 10px!important;
+}
+.ant-timeline.ant-timeline-label .ant-timeline-item-label{
+  width: calc(30% - 12px);;
+}
+.ant-timeline.ant-timeline-label .ant-timeline-item-tail, .ant-timeline.ant-timeline-label .ant-timeline-item-head{
+  left: 30%;
+}
+.ant-timeline.ant-timeline-label div.ant-timeline-item-content{
+  left: calc(30% - 4px)!important;
+  width: calc(70% - 14px)!important;
+}

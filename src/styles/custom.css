@@ -1,0 +1,30 @@
+/**************** 原子化补充 ****************/
+.gap4{
+  gap:var(--unit-4)
+}
+.bg-second-10{
+  /* 加上10%透明度 */
+  background-color:#86b3ff1A;
+}
+.bls-solid{
+  border-left-style:solid;
+}
+.blw3{
+  border-left-width: 3px;
+}
+.b-second{border-color:var(--second-color)}
+
+/**************** 覆盖第三方库的样式 ****************/
+.core-medical-system-evaluation .ant-tabs-content{
+  max-height: 100%;
+}
+.emr-quality-evaluation .ant-tabs-content{
+  max-height: 100%;
+}
+.tj-cls .ant-tabs-content{
+  max-height: 100%;
+}
+.quality-control  .ant-tabs-content{
+  max-height: 100%;
+}
+
